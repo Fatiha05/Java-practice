@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class assignment7 {
     public static void main(String[] args){
+         Scanner input = new Scanner(System.in);
         System.out.println("Do you love java ?");
-        Scanner input = new Scanner(System.in);
         char ch = input.next().charAt(0);
         if(ch=='y' || ch=='Y'){
             System.out.print("You are a java lover.");
